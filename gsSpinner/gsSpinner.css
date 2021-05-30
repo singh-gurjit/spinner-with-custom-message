@@ -1,0 +1,19 @@
+.spinnerText {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 55vh;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(0, 112, 210);
+    text-shadow: 3px 3px 8px rgb(106, 155, 197);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.spinner-text-extended {
+    text-shadow: 5px 5px 14px rgb(106, 155, 197);
+}
