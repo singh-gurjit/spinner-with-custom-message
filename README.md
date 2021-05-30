@@ -1,1 +1,1 @@
-# spinner-with-custom-message
+# Lighnting spinner with custom message.
