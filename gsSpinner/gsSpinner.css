@@ -1,4 +1,4 @@
-.spinnerText {
+.spinner-text {
     position: fixed;
     text-align: center;
     left: 0;
@@ -8,12 +8,15 @@
     font-weight: bold;
     font-size: 2em;
     color: rgb(0, 112, 210);
-    text-shadow: 3px 3px 8px rgb(106, 155, 197);
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
-.spinner-text-extended {
-    text-shadow: 5px 5px 14px rgb(106, 155, 197);
+@keyframes glow {
+    0% {
+        text-shadow: 3px 3px 8px rgb(106, 155, 197);
+    }
+    100% {
+        text-shadow: 5px 5px 14px rgb(106, 155, 197);
+        opacity: 0.7;
+    }
 }
