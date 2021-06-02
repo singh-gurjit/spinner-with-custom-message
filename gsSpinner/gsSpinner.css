@@ -1,12 +1,10 @@
 .spinner-text {
-    position: fixed;
-    text-align: center;
-    left: 0;
-    right: 0;
+    position: absolute;
     top: 55vh;
+    left: 43vw;
     z-index: 1;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.8rem;
     color: rgb(0, 112, 210);
     animation: glow 1s ease-in-out infinite alternate;
 }
