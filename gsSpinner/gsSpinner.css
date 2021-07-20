@@ -1,7 +1,8 @@
 .spinner-text {
-    position: absolute;
+    position: relative;
     top: 55vh;
-    left: 43vw;
+    margin: auto;
+    text-align: center;
     z-index: 1;
     font-weight: bold;
     font-size: 1.8rem;
